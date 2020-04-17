@@ -1,11 +1,7 @@
 # DISCIPLINE
- 65% keyboard assembled with only through hole components, including usb type-c
+ 55% keyboard using D2F microswitches, based on Coseyfannitutti's Discipline
 
 [BOM, Build Guide, and Flashing Information](./doc)
-
-Kits available at [cftkb.com](https://www.cftkb.com)
-
-**[Optional High Profile Lasercut Acrylic Case](./case)**
 
 ![discipline](./doc/images/discipline.jpeg)
 ![](./doc/images/discipline-kicad.png)
