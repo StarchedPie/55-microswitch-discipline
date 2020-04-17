@@ -4,4 +4,4 @@
 [BOM, Build Guide, and Flashing Information](./doc)
 
 ![discipline](./doc/images/discipline.jpeg)
-![](./doc/images/PBC_Eagle.png)
+![](./doc/images/PCB_Eagle.png)
