@@ -6,6 +6,7 @@ Switch Diodes:       56x 1N4148TR (or any other small signal diodes)
 Boot/Reset switches: 2x PTS636 SK43 LFS (substitute parts avaliable)
 J1: USB-C port:      1x USB4085-GF-A (https://www.digikey.com.au/product-detail/en/gct/USB4085-GF-A/2073-USB4085-GF-ACT-ND/9859733)
 U1: Microcontroller: 1x ATMEGA32A-PU
+U1: Socket:          1x 40Pin 0.6" row spacing DIP socket
 XTAL: Crystal:       1x ABL-16.000MHZ-B2 (any 16.000MHz crystal with the same size will work)
 ISP: Header:         1x 2x3 0.1" pin header
 D1, D2:              2x 3.6v Zener Diode (lowest capacitance is preferred)
