@@ -12,4 +12,6 @@ Adaptors to MX are planned, but as the microswitch levers hinge instead of slide
 The keycaps on the completed build have white paint put into the letters for better visibility.
 Not all keycaps are included, as they are being reworked.
 
+![](Keycaps.jpg)
+
 ![](Layout.png)
