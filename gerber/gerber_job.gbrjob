@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-04-10T11:28:38Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "55percent"
+        },
+        "Owner": "Harrison Harding <hharding00@hotmail.com>",
+        "Size": {
+            "X": 255.27,
+            "Y": 102.87
+        }
+    }
+}
