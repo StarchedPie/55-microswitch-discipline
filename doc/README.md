@@ -15,8 +15,8 @@ A precompiled hex file is in the "55percent" folder
 
 ***Build guide is similar to DISCIPLINE, with a few notable alterations:***
 
-1: The switch diodes should be soldered before the switches.
+1: The line on the PCB indicates where the lever mount side of the microswitch should face. Putting them in reversed will leave teh common terminal disconnected. Be sure to have them fully seated against the board when soldering.
 
-2: The line on the PCB indicates where the lever mount side of the microswitch should face. Putting them in reversed will leave teh common terminal disconnected. Be sure to have them fully seated against the board when soldering.
+2: As the fuse was omitted from the design, take extra care to not cause shorts between VCC and GND - in particular, the electrolytic capacitor and zener diode orientation, and to not bridge connections on the USB-C port. The baseplate will protect the bottom from shorts on the desk when in use.
 
-3: as the fuse was omitted from the design, take extra care to not cause shorts between VCC and GND - in particular, the electrolytic capacitor and zener diode orientation, and to not bridge connections on the USB-C port. The baseplate will protect the bottom from shorts on the desk when in use.
+3: When installing the baseplate and cover, use the 10mm M2 screws from the underside of the baseplate, through a spacer, through the pcb, and into the female end of the standoff. The male end of the standoff then only needs to pass though the cover.
