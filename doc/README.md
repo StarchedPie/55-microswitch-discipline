@@ -1,6 +1,6 @@
 # DISCIPLINE 55%
 
-![discipline](./images/PCB_EAGLE)
+![fiftyfivepercent](./images/PCB_Eagle)
 
 ***flashing guides are for the DISCIPLINE specifically, not the 55% version, but should work the same***
 
