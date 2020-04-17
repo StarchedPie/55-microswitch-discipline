@@ -1,4 +1,4 @@
-# DISCIPLINE 55%
+# DISCIPLINE / 55%
 
 ![fiftyfivepercent](./images/PCB_Eagle.png)
 
