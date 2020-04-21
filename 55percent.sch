@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -19732,19 +19732,16 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="DP1"/>
 <wire x1="43.18" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="-2.54" x2="20.32" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="2.54" x2="20.32" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="20.32" y="-2.54"/>
-<pinref part="D2" gate="1" pin="C"/>
-<wire x1="20.32" y1="-12.7" x2="20.32" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-2.54" x2="20.32" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="20.32" y="-2.54"/>
+<wire x1="38.1" y1="-2.54" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="J1" gate="G$1" pin="DP2"/>
+<wire x1="15.24" y1="-2.54" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-5.08" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-5.08" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="38.1" y="-2.54"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="15.24" y1="-12.7" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="15.24" y="-2.54"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -19776,15 +19773,17 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="J1" gate="G$1" pin="DN2"/>
 <wire x1="43.18" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="DN1"/>
-<wire x1="15.24" y1="-12.7" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="-7.62" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="15.24" y="-7.62"/>
-<wire x1="38.1" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-7.62" x2="20.32" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-10.16" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
 <junction x="38.1" y="-7.62"/>
-<pinref part="D1" gate="1" pin="C"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="D2" gate="1" pin="C"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="20.32" y="-7.62"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
