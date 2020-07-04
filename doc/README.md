@@ -10,6 +10,8 @@ A precompiled hex file is in the "55percent" folder
 
 [Command Line Flashing Guide (Advanced)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5d7f3c43fef3e33f1b03bfe2/1568619588036/DISCIPLINE+FLASHING+GUIDE+-+COMMAND+LINE.pdf)
 
+The file "active_pk.c" must be added to the qmk_firmware/quantum/debounce folder. This debounce algorithm is a modified version of eager_pk which better handles worn microswitches.
+
 [Bootloader](./bootloader)
 
 
